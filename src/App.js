@@ -10,22 +10,13 @@ import Playgame from './Playgame';
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Routes>
-{/* 
-          <Route path="/"
-            element={
-              <PlayerChoice/>
-            } /> */}
+      
           
-          <Route path="/"
-            element={
+          
               <Playgame/>
-            }
-          />
+            
           
-        </Routes>
-      </Router>
+      
     </div>
   );
 }
